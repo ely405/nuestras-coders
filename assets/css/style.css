@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Copse');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Copse', serif;
+}
+
+.main-container{
+    padding: 1rem 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+}
+
+.main-container h1+span{
+    width: 6rem;
+    height: 0.5rem;
+    background-color: black;
+    display: block;
+    margin: 0.3rem 0;
+}
+
+.coder-box{
+    max-width: 66rem;
+    margin: 4rem auto 0;
+}
+
+.coder{
+    width: 18.75;
+    display: inline-block;
+    position: relative;
+    margin: 1.5rem;
+}
+
+.coder figcaption{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
